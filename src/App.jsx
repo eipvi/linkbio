@@ -1,5 +1,5 @@
 import Sidebar from './components/sidebar/Sidebar';
-import MainContent from './containers/MainContent';
+import MainContent from './components/containers/MainContent.jsx';
 import './sass/app.scss'
 
 function App() {
@@ -8,6 +8,7 @@ function App() {
    <div className="portfolio">
     <Sidebar />
     <MainContent />
+    
     </div>
   );
 }
