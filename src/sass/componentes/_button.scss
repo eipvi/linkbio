@@ -1,5 +1,7 @@
-button {
-        background-color: $white;
-        color: $black;
-    }
-    
+.btn {
+    padding: 0.8rem 1.2rem;
+    color: $white;
+    background: $gradient;
+    text-decoration: none;
+    border-radius: 3rem;
+}

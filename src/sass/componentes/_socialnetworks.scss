@@ -1,0 +1,15 @@
+#social-networks {
+    gap: 1rem;
+    margin: 1rem 0;
+
+
+    .social-btn {
+        font-size: 1.3rem;
+        color: #333;
+        background-color: $bg-color;
+        border-radius: $card-border-radius;          
+        margin-top: 2rem;
+        margin-left: 0.1rem;
+        padding: 0.5rem 0.8rem;
+        }
+}
