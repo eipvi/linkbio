@@ -1,3 +1,4 @@
+import SocialNetworks from '/src/components/ui/SocialNetworks.jsx';
 import Avatar from "/src/public/img/paulav.jpeg";
 
 import "/src/sass/app.scss";
@@ -5,11 +6,11 @@ import "/src/sass/app.scss";
 const Sidebar = () => {
   return (
 <aside id="sidebar">
-<p>imagem</p>
+<img src={Avatar} alt="Paula Vieira" />
 <h1>Paula V.</h1>
-<p className="title">Desenvolvedora e Ui/Ux Design</p>
-<p>Redes</p>
-<p>Informações de contato</p>
+<p className="title">Dev e Ui/Ux Design</p>
+<SocialNetworks />
+  <p>Informações de contato</p>
 <a href="" className="btn">Entre em contato</a>
 </aside>  )
 }
