@@ -1,0 +1,50 @@
+#information {
+    padding: 0.8rem 1.2rem;
+    color: $bg-container;
+    text-decoration: none;
+    border-radius: $container-border-radius;
+    flex-direction: column;
+    background-color: $bg-color;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    text-align: left;
+    width: 80%;
+    border-radius: $black;
+
+    .info-card {
+        display: flex;
+        position: relative;        
+        justify-content: start;
+        gap: 1rem;
+        padding-bottom: 0.8rem;
+        margin-bottom: 0.8rem;
+        border-bottom: 1px solid $black;
+        width: 100%;
+    }
+
+    h3 {
+        color: $black;
+        font-size: .8rem;
+        margin-bottom: .1rem;
+    }
+
+    p {
+        color: $white;
+        font-weight: 300;
+        font-size: .9rem;
+    }
+
+    svg {
+        background-color: $black;
+        padding: .4rem;
+        width: 2rem;
+        height: 2rem;
+        border-radius: $card-border-radius;
+    }
+
+    #email-icon, #pin-icon {
+        color: $color-secondy;
+    }
+
+
+}
