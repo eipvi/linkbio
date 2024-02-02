@@ -1,15 +1,12 @@
 #information {
-    padding: 0.8rem 1.2rem;
     color: $bg-container;
     text-decoration: none;
     border-radius: $container-border-radius;
-    flex-direction: column;
     background-color: $bg-color;
     padding: 1rem;
     margin-bottom: 1rem;
     text-align: left;
-    width: 80%;
-    border-radius: $black;
+    width: 93%;
 
     .info-card {
         display: flex;
@@ -23,7 +20,7 @@
     }
 
     h3 {
-        color: $black;
+        color: $text-black;
         font-size: .8rem;
         margin-bottom: .1rem;
     }
@@ -34,7 +31,7 @@
         font-size: .9rem;
     }
 
-    svg {
+    svg,path {
         background-color: $black;
         padding: .4rem;
         width: 2rem;
