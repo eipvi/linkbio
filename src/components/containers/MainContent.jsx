@@ -1,9 +1,12 @@
-import "/src/sass/app.scss";
-
+import SobreConteiner from "./SobreConteiner"
+import TecnologiasContent from "./TecnologiasContent"
 
 const MainContent = () => {
   return (
-    <main id="main-content">MainConetent</main>
+    <main id="main-content">
+      <SobreConteiner />
+      <TecnologiasContent />
+    </main>
     )
 }
 
