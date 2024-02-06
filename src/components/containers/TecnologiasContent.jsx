@@ -12,13 +12,13 @@ const Tecnologias = [
 
 const TecnologiasContent = () => {
   return (
-    <section className="tecnologias-container">
+    <section className="technologias-container">
       <h2>Tecnologias</h2>      
-      <div className="tecnologia-grid">
+      <div className="technologia-grid">
         {Tecnologias.map((tech) => (
-          <div className="tecnologia-card" id={tech.id} key={tech.id}>
+          <div className="technologia-card" id={tech.id} key={tech.id}>
             {tech.icon}
-            <div className="tecnologia-info">
+            <div className="technologia-info">
               <h3>{tech.name}</h3>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
               </div>            
