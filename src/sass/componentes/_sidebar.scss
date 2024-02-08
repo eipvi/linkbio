@@ -12,7 +12,7 @@
 
     h1 {
         padding-top: 2rem;
-        color: $white;
+        color: $text-black;
     }
 
 }
@@ -23,10 +23,13 @@ img {
     position: absolute;
     top: -5rem;
     width: 140px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray; /* IE */
 }
 
 .title {
-    color: $white;
+    color: $text-black;
     background-color: $bg-color;
     border-radius: $card-border-radius;
     margin-top: 1rem;

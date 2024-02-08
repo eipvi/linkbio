@@ -15,7 +15,7 @@
         gap: 1rem;
         padding-bottom: 0.8rem;
         margin-bottom: 0.8rem;
-        border-bottom: 1px solid $black;
+        border-bottom: 1px solid $text-black;
         width: 100%;
     }
 
@@ -26,13 +26,13 @@
     }
 
     p {
-        color: $white;
+        color: $text-black;
         font-weight: 300;
         font-size: .9rem;
     }
 
     svg,path {
-        background-color: $black;
+        background-color: $white;
         padding: .4rem;
         width: 2rem;
         height: 2rem;
@@ -40,7 +40,7 @@
     }
 
     #email-icon, #pin-icon {
-        color: $color-secondy;
+        color: $text-black;
     }
 
 

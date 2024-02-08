@@ -10,7 +10,7 @@
     }
 
     h2 {
-        color: $white;
+        color: $text-black;
         font-size: 2.2rem;
         margin-bottom: 1.3rem;
         display: flex;
@@ -30,17 +30,10 @@
 
     p {
 
-        color: $white;
+        color: $text-black;
         margin-bottom: 1rem;
         line-height: 1.4rem;
     }
 
-    .btn {
-        padding: 0.8rem 1.2rem;
-        color: $white;
-        background: $gradient;
-        text-decoration: none;
-        border-radius: 3rem;
-    }
 
 }   
