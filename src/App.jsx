@@ -9,7 +9,6 @@ function App() {
    <div className="portfolio">
     <Sidebar />
     <MainContent />
-    
     </div>
   );
 }
